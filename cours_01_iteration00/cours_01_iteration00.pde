@@ -8,8 +8,8 @@ void draw()
   background(0);
   
   stroke(255);
-  for(int i = 0; i<width/50; i++)
+  for(int i = 0; i<width; i+=50)
   {
-    line(i * 50, 0, i * 50, height);
+    line(i, 0, i, height);
   }
 }
